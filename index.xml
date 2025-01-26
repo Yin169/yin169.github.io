@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>YIN CHEANG - Scientific Computing &amp; Software Engineering on YIN CHEANG Pages</title>
+    <link>https://yin169.github.io/</link>
+    <description>Recent content in YIN CHEANG - Scientific Computing &amp; Software Engineering on YIN CHEANG Pages</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yin169.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FASTSolver - Advanced Scientific Computing Framework</title>
+      <link>https://yin169.github.io/posts/fastsolver/</link>
+      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://yin169.github.io/posts/fastsolver/</guid>
+      <description>&lt;h2 id=&#34;about-fastsolver&#34;&gt;About FASTSolver&lt;/h2&gt;&#xA;&lt;p&gt;FASTSolver is a revolutionary framework designed to make scientific computing accessible without compromising on performance. Born from the challenges faced by researchers and engineers in the field, FASTSolver combines ease of use with powerful computational capabilities.&lt;/p&gt;&#xA;&lt;h2 id=&#34;core-features&#34;&gt;Core Features&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-hybrid-architecture&#34;&gt;1. Hybrid Architecture&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Python interface for intuitive programming&lt;/li&gt;&#xA;&lt;li&gt;C++ core engine for high-performance computing&lt;/li&gt;&#xA;&lt;li&gt;Seamless integration between ease of use and speed&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-comprehensive-toolset&#34;&gt;2. Comprehensive Toolset&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Advanced numerical solvers&lt;/li&gt;&#xA;&lt;li&gt;Built-in visualization capabilities&lt;/li&gt;&#xA;&lt;li&gt;Extensive scientific computing libraries&lt;/li&gt;&#xA;&lt;li&gt;Real-time data processing&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;3-domain-specific-solutions&#34;&gt;3. Domain-Specific Solutions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fluid dynamics simulations&lt;/li&gt;&#xA;&lt;li&gt;Complex mathematical computations&lt;/li&gt;&#xA;&lt;li&gt;Data analysis and visualization&lt;/li&gt;&#xA;&lt;li&gt;High-performance computing integration&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;applications&#34;&gt;Applications&lt;/h2&gt;&#xA;&lt;h3 id=&#34;fluid-dynamics&#34;&gt;Fluid Dynamics&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Aircraft design optimization&lt;/li&gt;&#xA;&lt;li&gt;Weather pattern prediction&lt;/li&gt;&#xA;&lt;li&gt;Ocean current modeling&lt;/li&gt;&#xA;&lt;li&gt;Aerodynamics simulation&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;scientific-computing&#34;&gt;Scientific Computing&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Large-scale equation systems&lt;/li&gt;&#xA;&lt;li&gt;Iterative problem-solving&lt;/li&gt;&#xA;&lt;li&gt;Multi-dimensional calculations&lt;/li&gt;&#xA;&lt;li&gt;Parallel computing support&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technical-details&#34;&gt;Technical Details&lt;/h2&gt;&#xA;&lt;h3 id=&#34;performance-optimization&#34;&gt;Performance Optimization&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Multi-threading capabilities&lt;/li&gt;&#xA;&lt;li&gt;GPU acceleration support&lt;/li&gt;&#xA;&lt;li&gt;Memory-efficient algorithms&lt;/li&gt;&#xA;&lt;li&gt;Scalable architecture&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;integration-capabilities&#34;&gt;Integration Capabilities&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;RESTful API support&lt;/li&gt;&#xA;&lt;li&gt;Cloud deployment options&lt;/li&gt;&#xA;&lt;li&gt;Container compatibility&lt;/li&gt;&#xA;&lt;li&gt;Extensive documentation&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;&#xA;&lt;p&gt;Visit our &lt;a href=&#34;https://github.com/Yin169/FASTSolver&#34;&gt;GitHub repository&lt;/a&gt; for installation instructions, documentation, and examples.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://yin169.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://yin169.github.io/about/</guid>
+      <description>&lt;h2 id=&#34;professional-overview&#34;&gt;Professional Overview&lt;/h2&gt;&#xA;&lt;p&gt;I am a dedicated Software Engineer and researcher with expertise in scientific computing and numerical methods, backed by education from prestigious institutions including Tsinghua University and Beihang University. My work focuses on developing high-performance computing solutions, particularly in computational fluid dynamics and aerodynamic design optimization. With a strong foundation in both theoretical and applied aspects of scientific computing, I specialize in creating efficient algorithms and numerical simulations for complex engineering problems.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
