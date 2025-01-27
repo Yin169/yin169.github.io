@@ -6,8 +6,15 @@
     <description>Recent content in YIN CHEANG - Scientific Computing &amp; Software Engineering on YIN CHEANG Pages</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yin169.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Efficient Solutions for Numerical Linear Systems</title>
+      <link>https://yin169.github.io/posts/numerical-linear-systems/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://yin169.github.io/posts/numerical-linear-systems/</guid>
+      <description>&lt;h1 id=&#34;efficient-solutions-for-numerical-linear-systems&#34;&gt;Efficient Solutions for Numerical Linear Systems&lt;/h1&gt;&#xA;&lt;p&gt;In scientific computing and engineering applications, solving large-scale linear systems is a fundamental challenge. This post explores various efficient methods and best practices for tackling these problems.&lt;/p&gt;&#xA;&lt;h2 id=&#34;direct-methods&#34;&gt;Direct Methods&lt;/h2&gt;&#xA;&lt;h3 id=&#34;lu-decomposition&#34;&gt;LU Decomposition&lt;/h3&gt;&#xA;&lt;p&gt;LU decomposition is a powerful direct method for solving linear systems Ax = b. It factors matrix A into lower (L) and upper (U) triangular matrices:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Advantages:&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Exact solution (barring numerical errors)&lt;/li&gt;&#xA;&lt;li&gt;Efficient for multiple right-hand sides&lt;/li&gt;&#xA;&lt;li&gt;Well-suited for dense matrices&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;cholesky-decomposition&#34;&gt;Cholesky Decomposition&lt;/h3&gt;&#xA;&lt;p&gt;For symmetric positive-definite matrices, Cholesky decomposition offers a more efficient alternative:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>FASTSolver - Advanced Scientific Computing Framework</title>
       <link>https://yin169.github.io/posts/fastsolver/</link>
