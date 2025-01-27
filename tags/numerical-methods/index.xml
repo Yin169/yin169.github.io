@@ -6,19 +6,26 @@
     <description>Recent content in Numerical-Methods on YIN CHEANG Pages</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yin169.github.io/tags/numerical-methods/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lattice Boltzmann Method: From Theory to Practice</title>
+      <link>https://yin169.github.io/posts/lattice-boltzmann-method/</link>
+      <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://yin169.github.io/posts/lattice-boltzmann-method/</guid>
+      <description>&lt;h1 id=&#34;introduction&#34;&gt;Introduction&lt;/h1&gt;&#xA;&lt;p&gt;The Lattice Boltzmann Method (LBM) has emerged as a powerful alternative to traditional computational fluid dynamics (CFD) approaches. Unlike conventional methods that directly solve the Navier-Stokes equations, LBM is based on kinetic theory and statistical physics, offering a unique perspective on fluid dynamics simulation.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://yin169.github.io/images/pic1.jpg&#34; alt=&#34;Cylinder Flow&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;theoretical-foundation&#34;&gt;Theoretical Foundation&lt;/h2&gt;&#xA;&lt;h3 id=&#34;the-boltzmann-equation&#34;&gt;The Boltzmann Equation&lt;/h3&gt;&#xA;&lt;p&gt;At the heart of LBM lies the Boltzmann equation, which describes the evolution of a particle distribution function f(x, ξ, t):&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Fast Multipole Method: Accelerating N-Body Simulations</title>
       <link>https://yin169.github.io/posts/fast-multipole-method/</link>
-      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://yin169.github.io/posts/fast-multipole-method/</guid>
       <description>&lt;h2 id=&#34;introduction-to-fast-multipole-method&#34;&gt;Introduction to Fast Multipole Method&lt;/h2&gt;&#xA;&lt;p&gt;The Fast Multipole Method (FMM) is a revolutionary algorithm that reduces the computational complexity of N-body problems from O(N²) to O(N). This breakthrough enables efficient simulation of large-scale particle systems and field calculations.&lt;/p&gt;&#xA;&lt;h3 id=&#34;key-concepts&#34;&gt;Key Concepts&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Multipole Expansion&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hierarchical representation of particle interactions&lt;/li&gt;&#xA;&lt;li&gt;Far-field approximations&lt;/li&gt;&#xA;&lt;li&gt;Error-controlled truncation&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Tree-based Structure&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Octree decomposition&lt;/li&gt;&#xA;&lt;li&gt;Near-field direct interactions&lt;/li&gt;&#xA;&lt;li&gt;Far-field approximations&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;integration-with-direct-solvers&#34;&gt;Integration with Direct Solvers&lt;/h2&gt;&#xA;&lt;p&gt;FASTSolver combines FMM with advanced direct solvers to provide a comprehensive solution for large-scale scientific computing:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fast Direct Solvers: Advanced Techniques for Linear Systems</title>
       <link>https://yin169.github.io/posts/fast-direct-solvers/</link>
-      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://yin169.github.io/posts/fast-direct-solvers/</guid>
       <description>&lt;h2 id=&#34;introduction-to-fast-direct-solvers&#34;&gt;Introduction to Fast Direct Solvers&lt;/h2&gt;&#xA;&lt;p&gt;Fast direct solvers represent a crucial advancement in computational linear algebra, offering exact solutions to linear systems while maintaining computational efficiency. Unlike traditional direct methods, these advanced techniques leverage sophisticated mathematical and algorithmic approaches to achieve near-optimal performance.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-techniques&#34;&gt;Key Techniques&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sparse-lu-factorization&#34;&gt;Sparse LU Factorization&lt;/h3&gt;&#xA;&lt;p&gt;Modern sparse LU factorization methods form the backbone of fast direct solvers:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Fill-in Minimization&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Advanced ordering techniques (Nested Dissection, AMD)&lt;/li&gt;&#xA;&lt;li&gt;Symbolic factorization optimization&lt;/li&gt;&#xA;&lt;li&gt;Memory-efficient storage schemes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Supernodal Techniques&lt;/strong&gt;&lt;/p&gt;</description>
     </item>

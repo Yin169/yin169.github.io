@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Lattice Boltzmann Method: From Theory to Practice | YIN CHEANG Pages</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="A comprehensive exploration of Lattice Boltzmann Method theory and its fundamental principles">
+    <meta name="generator" content="Hugo 0.141.0">
+    
+    
+    
+      <meta name="robots" content="index, follow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.d05fb5f317fcf33b3a52936399bdf6f47dc776516e1692e412ec7d76f4a5faa2.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://yin169.github.io/posts/lattice-boltzmann-method/">
+    
+
+    <meta property="og:url" content="https://yin169.github.io/posts/lattice-boltzmann-method/">
+  <meta property="og:site_name" content="YIN CHEANG Pages">
+  <meta property="og:title" content="Lattice Boltzmann Method: From Theory to Practice">
+  <meta property="og:description" content="A comprehensive exploration of Lattice Boltzmann Method theory and its fundamental principles">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-01-16T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-01-16T00:00:00+00:00">
+    <meta property="article:tag" content="Numerical-Methods">
+    <meta property="article:tag" content="Scientific-Computing">
+    <meta property="article:tag" content="Fluid-Dynamics">
+    <meta property="article:tag" content="Computational-Physics">
+
+  <meta itemprop="name" content="Lattice Boltzmann Method: From Theory to Practice">
+  <meta itemprop="description" content="A comprehensive exploration of Lattice Boltzmann Method theory and its fundamental principles">
+  <meta itemprop="datePublished" content="2025-01-16T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-01-16T00:00:00+00:00">
+  <meta itemprop="wordCount" content="510">
+  <meta itemprop="keywords" content="Numerical-Methods,Scientific-Computing,Fluid-Dynamics,Computational-Physics">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Lattice Boltzmann Method: From Theory to Practice">
+  <meta name="twitter:description" content="A comprehensive exploration of Lattice Boltzmann Method theory and its fundamental principles">
+
+      
+    
+	
+  </head><body class="ma0 avenir bg-near-white production">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        YIN CHEANG Pages
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/" title="Home page">
+              Home
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/posts/" title="Posts page">
+              Posts
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+        </ul>
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">Lattice Boltzmann Method: From Theory to Practice</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2025-01-16T00:00:00Z">January 16, 2025</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="introduction">Introduction</h1>
+<p>The Lattice Boltzmann Method (LBM) has emerged as a powerful alternative to traditional computational fluid dynamics (CFD) approaches. Unlike conventional methods that directly solve the Navier-Stokes equations, LBM is based on kinetic theory and statistical physics, offering a unique perspective on fluid dynamics simulation.</p>
+<p><img src="/images/pic1.jpg" alt="Cylinder Flow"></p>
+<h2 id="theoretical-foundation">Theoretical Foundation</h2>
+<h3 id="the-boltzmann-equation">The Boltzmann Equation</h3>
+<p>At the heart of LBM lies the Boltzmann equation, which describes the evolution of a particle distribution function f(x, ξ, t):</p>
+<pre tabindex="0"><code>∂f/∂t + ξ·∇f = Ω(f)
+</code></pre><p>where:</p>
+<ul>
+<li>f is the particle distribution function</li>
+<li>x is the spatial position</li>
+<li>ξ is the particle velocity</li>
+<li>t is time</li>
+<li>Ω is the collision operator</li>
+</ul>
+<h3 id="discretization-process">Discretization Process</h3>
+<p>LBM discretizes the Boltzmann equation in both velocity and space:</p>
+<ol>
+<li>
+<p><strong>Velocity Space Discretization</strong></p>
+<ul>
+<li>Limited set of discrete velocities (ei)</li>
+<li>Common models: D2Q9, D3Q19, D3Q27</li>
+<li>Conservation of mass and momentum</li>
+</ul>
+</li>
+<li>
+<p><strong>Spatial and Temporal Discretization</strong></p>
+<ul>
+<li>Regular lattice structure</li>
+<li>Uniform time steps</li>
+<li>Dimensionless units</li>
+</ul>
+</li>
+</ol>
+<h2 id="core-components">Core Components</h2>
+<h3 id="1-distribution-functions">1. Distribution Functions</h3>
+<p>The particle distribution functions (fi) represent the probability of finding particles:</p>
+<pre tabindex="0"><code>fi(x, t) = density of particles at position x and time t moving with velocity ei
+</code></pre><p>Macroscopic quantities are obtained through moments:</p>
+<ul>
+<li>Density: ρ = Σ fi</li>
+<li>Momentum: ρu = Σ fi ei</li>
+<li>Pressure: p = cs²ρ</li>
+</ul>
+<h3 id="2-collision-operator">2. Collision Operator</h3>
+<p>The BGK (Bhatnagar-Gross-Krook) approximation is commonly used:</p>
+<pre tabindex="0"><code>Ωi = -1/τ (fi - fi^eq)
+</code></pre><p>where:</p>
+<ul>
+<li>τ is the relaxation time</li>
+<li>fi^eq is the equilibrium distribution</li>
+</ul>
+<h3 id="3-equilibrium-distribution">3. Equilibrium Distribution</h3>
+<p>The equilibrium distribution is typically approximated as:</p>
+<pre tabindex="0"><code>fi^eq = wi ρ [1 + (ei·u)/cs² + (ei·u)²/(2cs⁴) - u²/(2cs²)]
+</code></pre><p>where:</p>
+<ul>
+<li>wi are weight factors</li>
+<li>cs is the speed of sound in lattice units</li>
+</ul>
+<h2 id="the-lbm-algorithm">The LBM Algorithm</h2>
+<h3 id="1-streaming-step">1. Streaming Step</h3>
+<p>Particles move to neighboring lattice sites:</p>
+<pre tabindex="0"><code>fi(x + ei∆t, t + ∆t) = fi*(x, t)
+</code></pre><p>where fi* is the post-collision distribution.</p>
+<h3 id="2-collision-step">2. Collision Step</h3>
+<p>Particles at each site undergo collision:</p>
+<pre tabindex="0"><code>fi*(x, t) = fi(x, t) - 1/τ [fi(x, t) - fi^eq(x, t)]
+</code></pre><h2 id="numerical-properties">Numerical Properties</h2>
+<h3 id="1-stability-and-accuracy">1. Stability and Accuracy</h3>
+<ul>
+<li>
+<p><strong>Chapman-Enskog Analysis</strong></p>
+<ul>
+<li>Recovery of Navier-Stokes equations</li>
+<li>Second-order accuracy in space and time</li>
+</ul>
+</li>
+<li>
+<p><strong>Stability Conditions</strong></p>
+<ul>
+<li>τ &gt; 0.5</li>
+<li>Mach number &lt; 0.3</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-boundary-conditions">2. Boundary Conditions</h3>
+<p>Common boundary implementations:</p>
+<ol>
+<li>
+<p><strong>Bounce-back</strong></p>
+<ul>
+<li>No-slip walls</li>
+<li>Simple and robust</li>
+</ul>
+</li>
+<li>
+<p><strong>Zou-He</strong></p>
+<ul>
+<li>Pressure and velocity boundaries</li>
+<li>Second-order accurate</li>
+</ul>
+</li>
+</ol>
+<h2 id="connection-to-hydrodynamics">Connection to Hydrodynamics</h2>
+<h3 id="1-recovery-of-navier-stokes">1. Recovery of Navier-Stokes</h3>
+<p>Through Chapman-Enskog expansion, LBM recovers:</p>
+<ul>
+<li>Continuity equation: ∂ρ/∂t + ∇·(ρu) = 0</li>
+<li>Momentum equation: ∂(ρu)/∂t + ∇·(ρuu) = -∇p + ν∇²(ρu)</li>
+</ul>
+<p>where:</p>
+<ul>
+<li>ν = cs²(τ - 0.5)∆t is the kinematic viscosity</li>
+</ul>
+<h3 id="2-advantages-over-traditional-cfd">2. Advantages Over Traditional CFD</h3>
+<ol>
+<li>
+<p><strong>Algorithmic Benefits</strong></p>
+<ul>
+<li>Local operations</li>
+<li>Explicit time stepping</li>
+<li>Natural parallelization</li>
+</ul>
+</li>
+<li>
+<p><strong>Physical Modeling</strong></p>
+<ul>
+<li>Multi-phase flows</li>
+<li>Complex geometries</li>
+<li>Thermal effects</li>
+</ul>
+</li>
+</ol>
+<h2 id="advanced-topics">Advanced Topics</h2>
+<h3 id="1-multiple-relaxation-time-mrt">1. Multiple Relaxation Time (MRT)</h3>
+<p>Enhanced stability through:</p>
+<ul>
+<li>Multiple relaxation times</li>
+<li>Moment space transformations</li>
+<li>Independent control of physical parameters</li>
+</ul>
+<h3 id="2-entropic-lbm">2. Entropic LBM</h3>
+<p>Improved stability via:</p>
+<ul>
+<li>H-theorem compliance</li>
+<li>Adaptive relaxation</li>
+<li>Non-equilibrium entropy minimization</li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<p>The Lattice Boltzmann Method provides a unique approach to fluid dynamics simulation, bridging microscopic particle dynamics and macroscopic fluid behavior. Its theoretical foundation in kinetic theory, combined with computational efficiency and numerical stability, makes it a powerful tool for modern CFD applications.</p>
+<hr>
+<p>This post provides a foundational understanding of LBM theory. Future posts will explore practical implementations, optimization techniques, and advanced applications.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="/tags/numerical-methods/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Numerical-Methods</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/scientific-computing/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Scientific-Computing</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/fluid-dynamics/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Fluid-Dynamics</a>
+   </li>
+  
+   <li class="list di">
+     <a href="/tags/computational-physics/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">Computational-Physics</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/fast-multipole-method/">Fast Multipole Method: Accelerating N-Body Simulations</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/fastsolver-roadmap/">FASTSolver Development Roadmap: Vision and Future Milestones</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/posts/fast-direct-solvers/">Fast Direct Solvers: Advanced Techniques for Linear Systems</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://yin169.github.io/" >
+    &copy;  YIN CHEANG Pages 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -47,8 +47,8 @@
 
   <meta itemprop="name" content="Scientific Computing & Software Engineering">
   <meta itemprop="description" content="Advancing Scientific Computing through Innovative Solutions">
-  <meta itemprop="datePublished" content="2025-01-11T00:00:00+00:00">
-  <meta itemprop="dateModified" content="2025-01-11T00:00:00+00:00">
+  <meta itemprop="datePublished" content="2025-01-16T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2025-01-16T00:00:00+00:00">
   <meta itemprop="wordCount" content="112">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Scientific Computing & Software Engineering">
@@ -177,52 +177,19 @@
       
       <div class="blah w-100">
         <h1 class="f3 fw1 athelas mt0 lh-title">
-          <a href="/posts/fastsolver-roadmap/" class="color-inherit dim link">
-            FASTSolver Development Roadmap: Vision and Future Milestones
+          <a href="/posts/lattice-boltzmann-method/" class="color-inherit dim link">
+            Lattice Boltzmann Method: From Theory to Practice
             </a>
         </h1>
         <div class="f6 f5-l lh-copy nested-copy-line-height nested-links">
-          <h2 id="vision">Vision</h2>
-<p>FASTSolver aims to revolutionize scientific computing by providing a seamless, high-performance framework that bridges the gap between ease of use and computational efficiency. Our roadmap outlines the strategic development path toward achieving this vision.</p>
-<h2 id="current-state-2025-q1">Current State (2025 Q1)</h2>
-<h3 id="core-features">Core Features</h3>
-<ul>
-<li>
-<p>Hybrid Python/C++ architecture</p>
-<ul>
-<li>Python frontend with NumPy-compatible API:
-<ul>
-<li>Full compatibility with NumPy&rsquo;s ndarray operations</li>
-<li>Support for broadcasting and advanced indexing</li>
-<li>Array operations with minimal overhead (&lt;5% compared to native NumPy)</li>
-<li>Transparent data type conversion and memory management</li>
-<li>Just-in-time compilation for critical code paths</li>
-</ul>
-</li>
-<li>C++ computational backend:
-<ul>
-<li>Optimized computational core using modern C++20 features</li>
-<li>SIMD vectorization with AVX-512 instruction set</li>
-<li>Cache-friendly data structures with aligned memory access</li>
-<li>Template metaprogramming for compile-time optimizations</li>
-<li>Performance &gt;80% of pure C++ implementations</li>
-</ul>
-</li>
-<li>Automated type conversion and memory management:
-<ul>
-<li>Zero-copy data transfer between Python and C++ layers using Pybind11</li>
-<li>Intelligent memory pooling for frequent allocations</li>
-<li>Custom allocator with thread-local caching</li>
-<li>Reference counting with cycle detection</li>
-<li>Automatic memory defragmentation</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p>Advanced numerical solvers</p>
+          <h1 id="introduction">Introduction</h1>
+<p>The Lattice Boltzmann Method (LBM) has emerged as a powerful alternative to traditional computational fluid dynamics (CFD) approaches. Unlike conventional methods that directly solve the Navier-Stokes equations, LBM is based on kinetic theory and statistical physics, offering a unique perspective on fluid dynamics simulation.</p>
+<p><img src="/images/pic1.jpg" alt="Cylinder Flow"></p>
+<h2 id="theoretical-foundation">Theoretical Foundation</h2>
+<h3 id="the-boltzmann-equation">The Boltzmann Equation</h3>
+<p>At the heart of LBM lies the Boltzmann equation, which describes the evolution of a particle distribution function f(x, ξ, t):</p>
         </div>
-          <a href="/posts/fastsolver-roadmap/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
+          <a href="/posts/lattice-boltzmann-method/" class="ba b--moon-gray bg-light-gray br2 color-inherit dib f7 hover-bg-moon-gray link mt2 ph2 pv1">read more</a>
         
       </div>
     </div>
@@ -322,6 +289,12 @@
         <section class="w-100">
           <h1 class="f3">More</h1>
           
+          
+            <h2 class="f5 fw4 mb4 dib mr3">
+              <a href="/posts/fastsolver-roadmap/" class="link black dim">
+                FASTSolver Development Roadmap: Vision and Future Milestones
+              </a>
+            </h2>
           
             <h2 class="f5 fw4 mb4 dib mr3">
               <a href="/posts/fast-direct-solvers/" class="link black dim">

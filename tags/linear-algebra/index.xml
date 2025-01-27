@@ -6,12 +6,12 @@
     <description>Recent content in Linear-Algebra on YIN CHEANG Pages</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yin169.github.io/tags/linear-algebra/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fast Direct Solvers: Advanced Techniques for Linear Systems</title>
       <link>https://yin169.github.io/posts/fast-direct-solvers/</link>
-      <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://yin169.github.io/posts/fast-direct-solvers/</guid>
       <description>&lt;h2 id=&#34;introduction-to-fast-direct-solvers&#34;&gt;Introduction to Fast Direct Solvers&lt;/h2&gt;&#xA;&lt;p&gt;Fast direct solvers represent a crucial advancement in computational linear algebra, offering exact solutions to linear systems while maintaining computational efficiency. Unlike traditional direct methods, these advanced techniques leverage sophisticated mathematical and algorithmic approaches to achieve near-optimal performance.&lt;/p&gt;&#xA;&lt;h2 id=&#34;key-techniques&#34;&gt;Key Techniques&lt;/h2&gt;&#xA;&lt;h3 id=&#34;sparse-lu-factorization&#34;&gt;Sparse LU Factorization&lt;/h3&gt;&#xA;&lt;p&gt;Modern sparse LU factorization methods form the backbone of fast direct solvers:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Fill-in Minimization&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Advanced ordering techniques (Nested Dissection, AMD)&lt;/li&gt;&#xA;&lt;li&gt;Symbolic factorization optimization&lt;/li&gt;&#xA;&lt;li&gt;Memory-efficient storage schemes&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Supernodal Techniques&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
