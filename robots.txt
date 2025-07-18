@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://yin169.github.io/sitemap.xml
