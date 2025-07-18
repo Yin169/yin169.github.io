@@ -1,5 +1,5 @@
 ---
-title: "Spectral and Algebraic Graph Theory"
+title: "Algorithm for Sparse Matrix"
 collection: teaching
 # type: "Undergraduate course"
 # permalink: /teaching/2014-spring-teaching-1
