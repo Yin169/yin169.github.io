@@ -69,12 +69,6 @@ Jul 2017 – Sep 2017
 
 ---
 
-## 🌐 Projects & Publications
-
-(You can include GitHub links, papers, or project summaries here.)
-
----
-
 ## 🗣️ Languages
 
 - English (Professional)  
