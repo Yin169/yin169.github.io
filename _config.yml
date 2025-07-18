@@ -26,7 +26,7 @@ author:
   name             : "NG YIN CHEANG"
   pronouns         : # example: "she/her"  
   bio              : "PhD student in Computer Science"
-  location         : "Underground of Whitehall and the HM Treasury building, London, Great Britain"
+  location         : "Earth"
   employer         : "Tsinghua University"
   uri              : # URL
   email            : "yincheang.ng@outlook.com" 
@@ -46,7 +46,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : https://github.com/Yin169
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -61,7 +61,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : https://www.linkedin.com/in/yin-cheang-ng-25a044176/
+  linkedin         : https://www.linkedin.com/in/yin-cheang-ng-25a044176
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
