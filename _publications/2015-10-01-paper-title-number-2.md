@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/level-set-etching
 date: 2025-07-15
-venue: 'Proceedings of the International Conference on Computational Science'
+venue: 'International Conference on ASIC'
 paperurl: 'http://yin169.github.io/files/paper2.pdf'
 bibtexurl: 'http://yin169.github.io/files/bibtex2.bib'
 ---
