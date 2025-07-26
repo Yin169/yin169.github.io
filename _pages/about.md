@@ -7,12 +7,28 @@ redirect_from:
   - /about.html
 ---
 
-Ng Yin Cheang is an **incoming PhD student in Computer Science at Tsinghua University**, with expertise in numerical methods, scientific computing, and machine learning. He holds a Master's in Aeronautical Engineering from Tsinghua and a Bachelor's in Aeronautical Engineering from Beihang.
+Ng Yin Cheang is an **incoming PhD student in Computer Science at Tsinghua University**, specializing in numerical methods, scientific computing, and machine learning. He holds a Master's in Aeronautical Engineering from Tsinghua and a Bachelor's from Beihang.
 
-He has professional experience as a **Senior Data Scientist at SPH Media**, developing personalized news recommendation systems, and as an **Algorithm Engineer at Shopee Singapore**, applying deep learning techniques to product classification and device fingerprinting. His work at **JD Digits** involved NLP-based risk modeling with high production precision.
+## Professional Experience
 
-His research interests focus on **Numerical Methods, Graph Theory, Machine Learning, and High-performance Computing**.
+**Senior Data Scientist** @ SPH Media, Singapore
+- Developed personalized news recommendation systems for Singapore's largest Chinese-language news platform
+
+**Algorithm Engineer** @ Shopee, Singapore
+- Applied deep learning (BERT, Sent2Vec) to product classification and device fingerprinting
+
+**Algorithm Engineer** @ JD Digits, Beijing
+- Developed NLP-based risk modeling for cash-out behavior detection
 
 ## Education
+
 - **PhD in Computer Science** (Expected 2029), Tsinghua University
-- **MSc & BEng in Aeronautical Engineering**, Tsinghua & Beihang Universities
+- **MSc in Aeronautical Engineering** (2018), Tsinghua University
+- **BEng in Aeronautical Engineering** (2015), Beihang University
+
+## Research Interests
+
+- Numerical Methods & Scientific Computing
+- Machine Learning & Deep Learning
+- High-Performance Computing
+- Spectral and Algebraic Graph Theory
